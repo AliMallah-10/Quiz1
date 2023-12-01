@@ -1,0 +1,179 @@
+.container {
+  margin: auto;
+}
+.addItems {
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.764);
+}
+.addItems:hover {
+  transform: scale(1.08);
+  transition: 0.5s;
+}
+.inputsRadio {
+  margin: 9px 10px 9px 0;
+}
+input[type="text"] {
+  width: 60%;
+  box-sizing: border-box;
+  padding: 8px;
+  margin: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.inputsRadio {
+  width: 60%;
+}
+.inputsRadio label {
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+input[type="radio"]:checked + label {
+  color: red !important;
+}
+input[type="radio"] {
+  accent-color: red;
+  align-content: center;
+  transform: scale(1.5);
+}
+.btns {
+  align-items: center;
+  text-align: center;
+  margin: 15px 0 9px 10px;
+}
+.btns #btnAdd {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+}
+.btns #btnGeneral {
+  background-color: #af4c4c;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.viewItems {
+  margin-top: 30px;
+  padding: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.938);
+}
+.viewItems:hover {
+  transform: scale(1.08);
+  transition: 0.5s;
+}
+.viewItems #btnsearch {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+}
+.viewItems #delete {
+  background-color: #ff0000;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.serachDiv input {
+  width: 20% !important;
+  height: 40px;
+  box-sizing: border-box;
+  padding: 8px;
+  margin: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.serachDiv {
+  /* display: flex; */
+  padding: 20px;
+  background-color: rgb(98, 2, 187);
+  /* border-bottom: 2px solid rgb(0, 0, 0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.973); */
+}
+.serachDiv {
+  position: relative;
+}
+
+/* Shadow for the entire search div */
+.serachDiv::after {
+  content: "";
+  position: absolute;
+  bottom: -4px; /* Adjust this value to control the shadow distance */
+  left: 0;
+  width: 100%;
+  height: 4px; /* Adjust this value to control the shadow size */
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.986); /* Adjust this value for shadow color and intensity */
+}
+
+.FormView {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(98, 2, 187);
+  padding: 15px;
+}
+.FormView div {
+  width: 32%;
+}
+.FormView ul {
+  background-color: rgb(132, 0, 255);
+  padding: 10px;
+  width: 90%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.764);
+}
+.FormView ul:hover {
+  transform: scale(1.08);
+  transition: 0.5s;
+}
+.list-fruits li {
+    background-color: lightgreen; /* Change to your desired color */
+  }
+  
+  .list-legumes li {
+    background-color: lightblue; /* Change to your desired color */
+  }
+  
+  .list-group li {
+    background-color: lightcoral; /* Change to your desired color */
+  }
+.FormView ul li {
+  list-style-type: none;
+  /* background-color: #4caf50; */
+  padding: 20px;
+  width: 90%;
+  border-radius: 10px;
+  margin: 10px 0;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.932);
+}
+.FormView ul li:hover {
+  transform: scale(1.03);
+  /* transition: 0.5s; */
+}

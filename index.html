@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="addItems">
+        <div class="inputsRadio">
+          <input type="text" name="name" id="name" placeholder="Enter Item" />
+          <input type="radio" name="radio1" />
+          <label for="">Fruits</label>
+          <input type="radio" name="radio1" />
+          <label for="">Legumes</label>
+        </div>
+        <div class="btns">
+          <button id="btnAdd">Add To Specific List</button>
+          <button id="btnGeneral">Add To General list</button>
+        </div>
+      </div>
+      <div class="viewItems">
+        <div class="serachDiv">
+          <button id="btnsearch">Search For Item</button>
+          <button id="delete">Delete An Item</button>
+          <input
+            type="text"
+            name="search"
+            id="search"
+            placeholder="Search For a Fruits or Legumes"
+          />
+        </div>
+        <div class="listItems">
+          <form id="addForm" class="FormView">
+            <div>
+              <h2>List Of Fruits</h2>
+              <ul class="list-fruits" id="FruitsItems"></ul>
+            </div>
+            <div>
+              <h2>List Of Fruits And Legumes</h2>
+              <ul class="list-group" id="GroupItems"></ul>
+            </div>
+            <div>
+              <h2>List Of Legumes</h2>
+              <ul class="list-legumes" id="LegumesItems"></ul>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="javaScript.js"></script>
+  </body>
+</html>
